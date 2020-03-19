@@ -1,0 +1,35 @@
+.person{
+    display: flex;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.person-image img{
+    width: 250px;
+    height: 215px;
+   
+}
+
+    
+.person-image img:hover{
+    border-radius: 100%;
+}
+.person-details{
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.795);
+
+}
+.add-button{
+    background-color: rgb(18, 167, 18);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+}
+.add-button:hover{
+    background-color: darkgreen;
+}
